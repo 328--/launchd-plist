@@ -6,9 +6,9 @@
 
 - `~/Library/LaunchAgents`にplistファイルを置いて
 ```
-launchd load ~/Library/LaunchAgents/....plist
+launchctl load ~/Library/LaunchAgents/....plist
 ```
 - ファイルに変更があった場合は以下のようにunloadしてからloadし直す
 ```
-launchd unload ~/Library/LaunchAgents/....plist
+launchctl unload ~/Library/LaunchAgents/....plist
 ```
